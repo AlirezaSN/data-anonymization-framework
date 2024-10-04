@@ -43,3 +43,11 @@ This project provides a comprehensive data anonymization framework based on Rela
 
 3. The script will load the dataset, preprocess it, extract RFDs, create generalization hierarchies, and perform data anonymization using PSO. It will print the best anonymization strategy and its fitness values (k-anonymity and information loss).
 
+## Synthetic Dataset Generation Guide
+
+1. Run the main script:
+    ```bash
+    > python synthetic_dataset_generator.py
+    ```
+
+2. The synthetic datasets will be saved as CSV files in the "synthetic_datasets" directory (or a directory of your choice). Each file will be named according to the number of QIDs it contains (e.g., `synthetic_dataset_10_QIDs.csv`).
