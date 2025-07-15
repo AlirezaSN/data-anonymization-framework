@@ -51,3 +51,27 @@ This project provides a comprehensive data anonymization framework based on Rela
     ```
 
 2. The synthetic datasets will be saved as CSV files in the "synthetic_datasets" directory (or a directory of your choice). Each file will be named according to the number of QIDs it contains (e.g., `synthetic_dataset_10_QIDs.csv`).
+
+## Cite the framework
+
+If you use this framework in your research or project, please cite the following paper [DOI](https://doi.org/10.1007/s11227-024-06642-4):
+
+```
+@article{sadeghi2025optimizing,
+  title={Optimizing data privacy: an RFD-based approach to anonymization strategy selection},
+  author={Sadeghi-Nasab, Alireza and Rahmani, Mohsen},
+  journal={The Journal of Supercomputing},
+  volume={81},
+  number={1},
+  pages={134},
+  year={2025},
+  publisher={Springer}
+}
+```
+
+Thank you for citing our work! 🙏
+
+
+
+
+
