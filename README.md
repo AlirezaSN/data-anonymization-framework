@@ -43,6 +43,17 @@ This project provides a comprehensive data anonymization framework based on Rela
 
 3. The script will load the dataset, preprocess it, extract RFDs, create generalization hierarchies, and perform data anonymization using PSO. It will print the best anonymization strategy and its fitness values (k-anonymity and information loss).
 
+## Framework Execution Guide - Bot-IoT
+
+1. This dataset will be downloaded directly from the code. So, you don't have to download and embed it in the framework. If needed, you can download the dataset from the UCI Machine Learning Repository [here](https://research.unsw.edu.au/projects/bot-iot-dataset).
+
+2. Run the main script:
+    ```bash
+    > python data_anonymization_framework_iot.py
+    ```
+
+3. The script will load the dataset, preprocess it, extract RFDs, create generalization hierarchies, and perform data anonymization using PSO. It will print the best anonymization strategy and its fitness values (k-anonymity and information loss).
+
 ## Synthetic Dataset Generation Guide
 
 1. Run the main script:
@@ -51,27 +62,3 @@ This project provides a comprehensive data anonymization framework based on Rela
     ```
 
 2. The synthetic datasets will be saved as CSV files in the "synthetic_datasets" directory (or a directory of your choice). Each file will be named according to the number of QIDs it contains (e.g., `synthetic_dataset_10_QIDs.csv`).
-
-## Cite the framework
-
-If you use this framework in your research or project, please cite the following paper [DOI](https://doi.org/10.1007/s11227-024-06642-4):
-
-```
-@article{sadeghi2025optimizing,
-  title={Optimizing data privacy: an RFD-based approach to anonymization strategy selection},
-  author={Sadeghi-Nasab, Alireza and Rahmani, Mohsen},
-  journal={The Journal of Supercomputing},
-  volume={81},
-  number={1},
-  pages={134},
-  year={2025},
-  publisher={Springer}
-}
-```
-
-Thank you for citing our work! 🙏
-
-
-
-
-
